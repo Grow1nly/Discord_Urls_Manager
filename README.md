@@ -1,16 +1,16 @@
 # Discord URLs Manager
 
-Bot Discord pour trier les messages contenant des URLs, les archiver dans des salons privés et suivre tout ça dans SQLite.
+🤖 Bot Discord pour trier les messages contenant des URLs, les archiver dans des salons privés et suivre tout ça dans SQLite.
 
-## Fonctionnalités
+## ✨ Fonctionnalités
 
-- Détecte automatiquement les URLs dans les messages
-- Classe chaque lien par domaine (YouTube, GitHub, etc.)
-- Archive les liens dans des salons privés dédiés
-- Évite les doublons avec SQLite
-- Reprend le travail après un redémarrage
+- 🔍 Détection automatique des URLs dans les messages
+- 🗂️ Classification par domaine (YouTube, GitHub, etc.)
+- 📁 Archivage dans des salons privés dédiés
+- 💾 Évite les doublons avec SQLite
+- 🔄 Reprend le travail après un redémarrage
 
-## Installation
+## 🚀 Installation
 
 ```bash
 git clone https://github.com/Grow1nly/Discord_Urls_Manager.git
@@ -18,15 +18,15 @@ cd Discord_Urls_Manager
 npm install
 ```
 
-## Configuration
+## ⚙️ Configuration
 
-### 1. Créer un fichier `.env`
+### `.env`
 
 ```env
 DISCORD_TOKEN=ton_bot_token
 ```
 
-### 2. Configurer `config/server.json`
+### `config/server.json`
 
 ```json
 {
@@ -35,7 +35,7 @@ DISCORD_TOKEN=ton_bot_token
 }
 ```
 
-### 3. Configurer `config/categories.json`
+### `config/categories.json`
 
 ```json
 {
@@ -53,40 +53,40 @@ DISCORD_TOKEN=ton_bot_token
 }
 ```
 
-## Permissions Discord requises
+## 🔐 Permissions Discord
 
 - `Guilds`
-- `GuildMessages`  
+- `GuildMessages`
 - `Message Content Intent`
-- Lire/Envoyer/Supprimer des messages
+- Lire / Envoyer / Supprimer des messages
 - Gérer les salons (pour créer les salons d'archive)
 
-## Lancement
+## ▶️ Lancement
 
 ```bash
 npm start
 ```
 
-## Commandes
+## 📜 Commandes
 
 | Commande | Description |
 |----------|-------------|
 | `npm start` | Démarrer le bot |
 | `npm run backfill` | Rescaner tous les messages existants |
 
-## Structure
+## 📂 Structure
 
 ```
 src/
-├── index.js           # Point d'entrée
+├── index.js              # Point d'entrée
 ├── services/
 │   ├── archiveService.js    # Archivage des liens
-│   ├── reconcileService.js # Rescan au démarrage
-│   └── linkClassifier.js   # Classification par domaine
+│   ├── reconcileService.js  # Rescan au démarrage
+│   └── linkClassifier.js    # Classification par domaine
 └── storage/
-    └── sqlite.js      # Base de données
+    └── sqlite.js        # Base de données
 ```
 
-## License
+## 📝 License
 
 MIT
