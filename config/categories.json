@@ -1,0 +1,355 @@
+{
+  "defaultCategoryKey": "default",
+  "categories": [
+    {
+      "key": "github",
+      "channelName": "🧠-code-repositories",
+      "domains": [
+        "github.com",
+        "gist.github.com",
+        "gitlab.com",
+        "bitbucket.org",
+        "sourceforge.net",
+        "codeberg.org",
+        "huggingface.co",
+        "huggingface.com"
+      ]
+    },
+    {
+      "key": "youtube",
+      "channelName": "📺-flux-video",
+      "domains": [
+        "youtube.com",
+        "youtu.be",
+        "m.youtube.com",
+        "studio.youtube.com",
+        "vimeo.com",
+        "dailymotion.com",
+        "twitch.tv",
+        "kick.com",
+        "streamable.com",
+        "loom.com",
+        "veed.io",
+        "bilibili.com"
+      ]
+    },
+    {
+      "key": "ai",
+      "channelName": "🤖-ia-abyss",
+      "domains": [
+        "openai.com",
+        "chatgpt.com",
+        "platform.openai.com",
+        "anthropic.com",
+        "claude.ai",
+        "huggingface.co",
+        "replicate.com",
+        "stability.ai",
+        "runpod.io",
+        "together.ai",
+        "fireworks.ai",
+        "perplexity.ai",
+        "poe.com",
+        "midjourney.com",
+        "character.ai",
+        "groq.com",
+        "mistral.ai",
+        "deepseek.com",
+        "deepmind.google",
+        "elevenlabs.io",
+        "leonardo.ai",
+        "civitai.com"
+      ]
+    },
+    {
+      "key": "tools",
+      "channelName": "🧰-outils",
+      "domains": [
+        "notion.so",
+        "notion.site",
+        "trello.com",
+        "slack.com",
+        "zoom.us",
+        "figma.com",
+        "miro.com",
+        "airtable.com",
+        "linear.app",
+        "raycast.com",
+        "1password.com",
+        "cal.com",
+        "typeform.com",
+        "zapier.com",
+        "make.com"
+      ]
+    },
+    {
+      "key": "social",
+      "channelName": "📱-social-media",
+      "domains": [
+        "x.com",
+        "twitter.com",
+        "reddit.com",
+        "linkedin.com",
+        "instagram.com",
+        "tiktok.com",
+        "facebook.com",
+        "fb.com",
+        "threads.net",
+        "snapchat.com",
+        "discord.com",
+        "discord.gg",
+        "telegram.me",
+        "t.me",
+        "whatsapp.com"
+      ]
+    },
+    {
+      "key": "design",
+      "channelName": "🎨-design-creative",
+      "domains": [
+        "behance.net",
+        "dribbble.com",
+        "canva.com",
+        "pinterest.com",
+        "adobe.com",
+        "creativecloud.adobe.com",
+        "coolors.co",
+        "fontshare.com",
+        "fonts.google.com",
+        "mobbin.com",
+        "awwwards.com"
+      ]
+    },
+    {
+      "key": "dev",
+      "channelName": "💻-dev-ops",
+      "domains": [
+        "stackoverflow.com",
+        "stackexchange.com",
+        "serverfault.com",
+        "superuser.com",
+        "npmjs.com",
+        "yarnpkg.com",
+        "pnpm.io",
+        "docker.com",
+        "hub.docker.com",
+        "vercel.com",
+        "netlify.com",
+        "railway.app",
+        "render.com",
+        "fly.io",
+        "deno.com",
+        "bun.sh",
+        "nodejs.org",
+        "developer.mozilla.org",
+        "dev.to",
+        "hashnode.com"
+      ]
+    },
+    {
+      "key": "cloud",
+      "channelName": "☁️-cloud-infra",
+      "domains": [
+        "aws.amazon.com",
+        "azure.microsoft.com",
+        "cloud.google.com",
+        "cloudflare.com",
+        "workers.cloudflare.com",
+        "oracle.com",
+        "digitalocean.com",
+        "linode.com",
+        "akamai.com",
+        "firebase.google.com",
+        "supabase.com",
+        "planetscale.com",
+        "mongodb.com",
+        "upstash.com"
+      ]
+    },
+    {
+      "key": "security",
+      "channelName": "🛡️-cyber-watch",
+      "domains": [
+        "virustotal.com",
+        "haveibeenpwned.com",
+        "shodan.io",
+        "abuseipdb.com",
+        "cisa.gov",
+        "mitre.org",
+        "owasp.org",
+        "intigriti.com",
+        "hackerone.com",
+        "bugcrowd.com"
+      ]
+    },
+    {
+      "key": "gaming",
+      "channelName": "🎮-gaming-culture",
+      "domains": [
+        "twitch.tv",
+        "kick.com",
+        "store.steampowered.com",
+        "steamcommunity.com",
+        "epicgames.com",
+        "xbox.com",
+        "playstation.com",
+        "nintendo.com",
+        "riotgames.com",
+        "ea.com",
+        "ubisoft.com"
+      ]
+    },
+    {
+      "key": "music",
+      "channelName": "🎵-musique-audio",
+      "domains": [
+        "spotify.com",
+        "soundcloud.com",
+        "bandcamp.com",
+        "music.apple.com",
+        "deezer.com",
+        "tidal.com",
+        "genius.com"
+      ]
+    },
+    {
+      "key": "cinema",
+      "channelName": "🎬-streaming-cinema",
+      "domains": [
+        "netflix.com",
+        "primevideo.com",
+        "amazon.com",
+        "disneyplus.com",
+        "hulu.com",
+        "max.com",
+        "imdb.com",
+        "rottentomatoes.com",
+        "allocine.fr",
+        "letterboxd.com"
+      ]
+    },
+    {
+      "key": "crypto",
+      "channelName": "💎-crypto-web3",
+      "domains": [
+        "binance.com",
+        "coinbase.com",
+        "coinmarketcap.com",
+        "coingecko.com",
+        "etherscan.io",
+        "arbiscan.io",
+        "basescan.org",
+        "opensea.io",
+        "blur.io",
+        "uniswap.org",
+        "defillama.com"
+      ]
+    },
+    {
+      "key": "productivity",
+      "channelName": "📈-gestion-projet",
+      "domains": [
+        "asana.com",
+        "monday.com",
+        "jira.com",
+        "atlassian.com",
+        "clickup.com",
+        "todoist.com",
+        "evernote.com",
+        "coda.io",
+        "obsidian.md",
+        "grammarly.com"
+      ]
+    },
+    {
+      "key": "news",
+      "channelName": "📰-actualites",
+      "domains": [
+        "wikipedia.org",
+        "medium.com",
+        "lemonde.fr",
+        "bbc.com",
+        "bbc.co.uk",
+        "reuters.com",
+        "theverge.com",
+        "wired.com",
+        "numerama.com",
+        "techcrunch.com",
+        "arstechnica.com"
+      ]
+    },
+    {
+      "key": "learning",
+      "channelName": "🎓-apprentissage",
+      "domains": [
+        "coursera.org",
+        "udemy.com",
+        "khanacademy.org",
+        "edx.org",
+        "freecodecamp.org",
+        "codecademy.com",
+        "pluralsight.com",
+        "frontendmasters.com",
+        "brilliant.org",
+        "openclassrooms.com"
+      ]
+    },
+    {
+      "key": "3dprint",
+      "channelName": "🖨️-3d-print",
+      "domains": [
+        "printables.com",
+        "thingiverse.com",
+        "makerworld.com",
+        "cults3d.com",
+        "prusa3d.com"
+      ]
+    },
+    {
+      "key": "science",
+      "channelName": "🔬-science-research",
+      "domains": [
+        "arxiv.org",
+        "researchgate.net",
+        "pubmed.ncbi.nlm.nih.gov",
+        "nature.com",
+        "science.org",
+        "sciencedirect.com",
+        "springer.com",
+        "ieeexplore.ieee.org"
+      ]
+    },
+    {
+      "key": "shopping",
+      "channelName": "🛒-ecommerce",
+      "domains": [
+        "amazon.fr",
+        "amazon.com",
+        "ebay.com",
+        "aliexpress.com",
+        "etsy.com",
+        "cdiscount.com",
+        "fnac.com",
+        "darty.com"
+      ]
+    },
+    {
+      "key": "hardware",
+      "channelName": "⚡-tech-hardware",
+      "domains": [
+        "pcpartpicker.com",
+        "newegg.com",
+        "ldlc.com",
+        "materiel.net",
+        "tomshardware.com",
+        "anandtech.com",
+        "ifixit.com"
+      ]
+    },
+    {
+      "key": "default",
+      "channelName": "🌀-liens-perdus",
+      "domains": []
+    }
+  ]
+}

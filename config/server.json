@@ -1,0 +1,9 @@
+{
+  "serverName": "HIGHTENSOR le tensor defonce",
+  "archiveParentCategoryId": "1493669516562010435",
+  "archiveParentCategoryName": "HIGHTENSOR archives",
+  "ownerUserId": "",
+  "deleteMode": "mostly_links",
+  "reconcileOnStartup": false,
+  "reconcileBatchSize": 100
+}

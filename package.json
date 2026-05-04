@@ -1,0 +1,25 @@
+{
+  "name": "discord-urls-manager",
+  "version": "1.0.0",
+  "description": "Bot Discord pour trier, archiver et suivre les liens par categorie.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "backfill": "node scripts/backfill.js",
+    "reset-state": "node scripts/reset-state.js",
+    "check": "node --check src/index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "urls",
+    "sqlite"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.26.2",
+    "dotenv": "^17.4.1",
+    "sqlite3": "^5.1.7"
+  }
+}
